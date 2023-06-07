@@ -111,10 +111,10 @@ public class NewJFrame extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         //Rango de Puertos asignados a las oficinas que se simularan
-        for (int i=0002;i<0003;i++){
+        //for (int i=0002;i<0003;i++){
             try{
                 //IP de Host donde esta el servicio del Coordinado               
-                s = new Socket("10.85.140.5",45202);
+                s = new Socket("10.85.140.5",49666);
                 int cantidad =Integer.parseInt(jCantidad.getValue().toString());
                 HilosCliente hc=new HilosCliente(s,cantidad);
                 hcList.add(hc);
@@ -123,7 +123,7 @@ public class NewJFrame extends javax.swing.JFrame {
                 ex.printStackTrace();
             }
             //creamos el flujo de datos por el que se enviara un mensaje
-        }
+        //}
         
     }//GEN-LAST:event_jButton1ActionPerformed
 
