@@ -4,3 +4,4 @@
 | ------------- | ------------- |
 | Coor_Pool_Cliente  | Simulador de conexion a Oficinas y Pool  |
 | ListenerSimulator  | Simular conexion a puertos(tx) HTTP  |
+| Simulador-Tramas EBCDIC  | Simular Conexion a los Coordinadores |
