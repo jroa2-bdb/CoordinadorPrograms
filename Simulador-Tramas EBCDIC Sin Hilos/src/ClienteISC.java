@@ -43,9 +43,10 @@ public class ClienteISC {
         String IPDestino = "10.85.140.5";
     	//String IPDestino = "10.86.83.139"; //LISA
         //int PuertoDestino = 40340;
-        int PuertoDestino = 44057;
+        //int PuertoDestino = 44057;
         //int PuertoDestino = 49106;
     	// int PuertoDestino = 8003; //LISA
+        int PuertoDestino = 49666;
 
     	
         int LongTramaRespuesta;
